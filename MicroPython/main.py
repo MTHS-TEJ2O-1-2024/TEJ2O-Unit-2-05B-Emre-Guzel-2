@@ -6,5 +6,7 @@ This module is a Micro:bit MicroPython program
 
 from microbit import *
 
-
-display.scroll("Hello, World!")
+while True:
+    if button_a.is_pressed():
+        temperature = temperature()
+        display.scroll("The temperature is " + str(temperature) + "C")
