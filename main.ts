@@ -5,4 +5,12 @@
  * This program meuseures the tempurature of Kelvin 
 */
 
-basic.showString('Hello, World!')
+basic.clearScreen()
+basic.pause(1000)
+basic.showIcon(IconNames.Happy)
+
+let temperature: number
+input.onButtonPressed(Button.A, function () {
+    temperature = input.temperature() + Math.round(273.15)
+    basic.showString(" the temperature is:" + temperature + "K")
+})
