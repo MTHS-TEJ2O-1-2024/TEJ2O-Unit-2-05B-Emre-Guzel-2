@@ -1,6 +1,6 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
+Created by: Emre Guzel 
+Created on: Sep 24 2024
 This module is a Micro:bit MicroPython measures the temperature of Kelvin   
 """
 
